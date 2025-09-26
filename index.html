@@ -1,37 +1,142 @@
-<!doctype html>
-<html lang="en-US" prefix="og: https://ogp.me/ns#">
- <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="keywords" content="xvideos,xvideos.com, x videos,x video,porn,video,videos,">
- </head>
- <body class="home-page bp-nouveau home blog wp-embed-responsive wp-theme-vtube group-blog hfeed">
-  &nbsp; &nbsp;
-  <meta name="RATING" content="RTA-5042-1996-1400-1577-RTA">
-  <link rel="profile" href="https://gmpg.org/xfn/11">
-  <!-- Meta social networks -->
-  <!-- Google Analytics -->
-  <!-- Meta Verification -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Styled HTML Page</title>
   <style>
-			#dclm_modal_screen {
-			background-color: rgba(255,255,255,0.8);
-		}
-		#dclm_modal_content {
-			background-color: #fff;
-		}
-		#dclm_modal_content h2 {
-			color: #333;
-		}
-		#dclm_modal_content p {
-			color: #666;
-		}
-		#dclm_modal_content nav .av_go {
-		background-color: #7fbf4d!important;
-	}
-	#dclm_modal_content nav .av_no {
-		background-color: #999999!important;
-	}
-	#dclm-logo img {
-		opacity: 0.5;
-	}
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 14px 20px;
+      display: inline-block;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #666;
+    }
+
+    .hero {
+      background: url('https://source.unsplash.com/1600x500/?nature,landscape') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .content {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      flex: 1 1 300px;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
   </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Awesome Website</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Welcome to the Website</h1>
+  </div>
+
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="content">
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>We build responsive and modern websites tailored to your needs.</p>
+      </div>
+      <div class="card">
+        <h3>Design</h3>
+        <p>Our design team creates user-friendly and beautiful interfaces.</p>
+      </div>
+      <div class="card">
+        <h3>SEO</h3>
+        <p>We help your website rank higher in search engines to get noticed.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Awesome Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
